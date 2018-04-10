@@ -1,0 +1,162 @@
+@charset "UTF-8";
+
+.nav_bg_green {
+  background-color: hsla(359,100%,50%,1.00);
+}
+
+.nav_bg_white {
+  background-color: hsla(0,0%,100%,1.00);
+}
+
+.nav_padding {
+  padding-left: 5px;
+  padding-right: 5px;
+}
+
+.tel_padding {
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
+.toggle_color {
+  color: hsla(174,64%,40%,1.00);
+}
+
+.logo_space {
+  background-color: hsla(89,43%,50%,1.00);
+  /* [disabled]height: 100px; */
+  margin-top: 0px;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.top_title {
+  color: hsla(0,0%,25%,1.00);
+  font-family: "Helvetica Neue", "Segoe UI", "Noto Sans Japanese", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+  font-size: 24px;
+  position: relative;
+  /* [disabled]top: 20%; */
+  text-align: center;
+  line-height: 1.4em;
+  margin-top: -400px;
+}
+
+.h1_text {
+  font-size: 43px;
+}
+
+.base_hr {
+  border-top: 1px solid hsla(0,0%,85%,1.00);
+}
+
+.bn_biglink {
+  color: hsla(0,0%,100%,1.00);
+  font-size: 21px;
+  border-radius: 5px;
+}
+
+.section_margin {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+.bt_padding {
+  padding-top: 24px;
+  padding-bottom: 24px;
+}
+
+body {
+  font-family: "Helvetica Neue", "Segoe UI", "Noto Sans Japanese", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+}
+
+.section_midashi {
+  color: hsla(0,0%,25%,1.00);
+  font-family: "Helvetica Neue", "Segoe UI", "Noto Sans Japanese", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+  font-size: 36px;
+  line-height: 1.4em;
+  text-align: center;
+}
+
+.news_table_width {
+  width: 26%;
+}
+
+.table_text {
+  font-size: 15px;
+}
+
+.shop_name_obi {
+  background-color: hsla(204,100%,33%,1.00);
+  color: hsla(0,0%,100%,1.00);
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-family: "Helvetica Neue", "Segoe UI", "Noto Sans Japanese", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+  font-size: 18px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.card_radius {
+  border-radius: 5px;
+}
+
+.shop_content {
+  font-family: "Helvetica Neue", "Segoe UI", "Noto Sans Japanese", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+  font-size: 15px;
+  line-height: 1.4em;
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.syousai_padding {
+  padding: 0px 10px 10px;
+}
+
+.dark_green {
+  background-color: hsla(174,64%,40%,1.00);
+}
+
+.side_copy {
+  color: hsla(0,0%,100%,1.00);
+  font-family: "Helvetica Neue", "Segoe UI", "Noto Sans Japanese", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+  font-size: 13px;
+  line-height: 1.5em;
+  text-align: center;
+  padding-bottom: 30px;
+}
+
+.content_read {
+  font-family: "Helvetica Neue", "Segoe UI", "Noto Sans Japanese", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+  font-size: 15px;
+  line-height: 1.4em;
+}
+
+@media (max-width:320px){
+}
+
+@media (max-width:375px){
+}
+
+@media (max-width:414px){
+}
+
+@media (max-width:992px){
+
+.tablet_non {
+  display: none;
+}
+
+.brand-logo {
+}
+
+.tel_padding {
+  padding-top: 7px;
+  padding-left: 10px;
+  max-width: 165px;
+}
+}
