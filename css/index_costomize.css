@@ -23,7 +23,7 @@
 }
 
 .logo_space {
-  background-color: hsla(89,43%,50%,1.00);
+  background-color: hsla(174,64%,40%,1.00);
   /* [disabled]height: 100px; */
   margin-top: 0px;
   padding-top: 5px;
@@ -53,6 +53,7 @@
   color: hsla(0,0%,100%,1.00);
   font-size: 21px;
   border-radius: 5px;
+  line-height: 0em;
 }
 
 .section_margin {
@@ -88,7 +89,7 @@ body {
 }
 
 .shop_name_obi {
-  background-color: hsla(204,100%,33%,1.00);
+  background-color: hsla(204,70%,70%,1.00);
   color: hsla(0,0%,100%,1.00);
   text-align: center;
   padding-top: 10px;
@@ -107,7 +108,7 @@ body {
 
 .shop_content {
   font-family: "Helvetica Neue", "Segoe UI", "Noto Sans Japanese", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
-  font-size: 15px;
+  font-size: 14px;
   line-height: 1.4em;
   padding-top: 5px;
   padding-bottom: 5px;
@@ -130,19 +131,188 @@ body {
   padding-bottom: 30px;
 }
 
-.content_read {
-  font-family: "Helvetica Neue", "Segoe UI", "Noto Sans Japanese", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+.news_midashi {
+  font-size: 18px;
+}
+
+.top_parallax_read {
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.section_read {
   font-size: 15px;
-  line-height: 1.4em;
+  line-height: 1.8em;
+}
+
+.retina {
+}
+
+.top_margin10 {
+  margin-top: 10px;
+}
+
+.br320 {
+  display: none;
+}
+
+.br375 {
+  display: none;
+}
+
+.br414 {
+  display: none;
 }
 
 @media (max-width:320px){
+
+.parallax_h1 {
+  font-size: 22px;
+  text-shadow: 1px 1px 1px hsla(0,0%,100%,1.00);
+  margin-top: 100px;
 }
 
-@media (max-width:375px){
+.top_parallax_read {
+  font-size: 15px;
+  margin-top: 0px;
 }
 
-@media (max-width:414px){
+.bn_biglink {
+  color: hsla(0,0%,100%,1.00);
+  font-size: 13px;
+  border-radius: 5px;
+  line-height: 0em;
+}
+
+.bt_padding {
+  padding: 24px 5px;
+}
+
+.section_midashi {
+  color: hsla(0,0%,25%,1.00);
+  font-family: "Helvetica Neue", "Segoe UI", "Noto Sans Japanese", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+  font-size: 21px;
+  line-height: 1.4em;
+  text-align: center;
+}
+
+.section_read {
+  font-size: 13px;
+  line-height: 1.8em;
+}
+
+.parallax_h2 {
+  color: hsla(174,64%,40%,1.00);
+  font-size: 21px;
+  padding-top: 100px;
+  margin-top: 60px;
+  text-shadow: 1px 1px 1px hsla(0,0%,100%,1.00);
+}
+
+.parallax_h2 {
+  color: hsla(174,64%,40%,1.00);
+  font-size: 21px;
+  padding-top: 100px;
+  margin-top: 60px;
+  text-shadow: 1px 1px 1px hsla(0,0%,100%,1.00);
+  line-height: 2em;
+}
+
+.br320 {
+  display: block;
+}
+}
+
+@media (max-width:375px) and (min-width:321px){
+
+.parallax_h1 {
+  font-size: 27px;
+  text-shadow: 1px 1px 1px hsla(0,0%,100%,1.00);
+  margin-top: 100px;
+}
+
+.top_parallax_read {
+  font-size: 18px;
+  margin-top: 0px;
+}
+
+.bt_padding {
+  padding: 24px 5px;
+}
+
+.bn_biglink {
+  color: hsla(0,0%,100%,1.00);
+  font-size: 13px;
+  border-radius: 5px;
+  line-height: 0em;
+}
+
+.section_midashi {
+  color: hsla(0,0%,25%,1.00);
+  font-family: "Helvetica Neue", "Segoe UI", "Noto Sans Japanese", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+  font-size: 23px;
+  line-height: 1.4em;
+  text-align: center;
+}
+
+.parallax_h2 {
+  color: hsla(174,64%,40%,1.00);
+  font-size: 24px;
+  padding-top: 100px;
+  margin-top: 60px;
+  text-shadow: 1px 1px 1px hsla(0,0%,100%,1.00);
+  line-height: 2em;
+}
+
+.br375 {
+  display: block;
+}
+}
+
+@media (max-width:414px) and (min-width:376px){
+
+.parallax_h1 {
+  font-size: 30px;
+  text-shadow: 1px 1px 1px hsla(0,0%,100%,1.00);
+  margin-top: 100px;
+}
+
+.top_parallax_read {
+  font-size: 20px;
+  margin-top: 0px;
+}
+
+.bn_biglink {
+  color: hsla(0,0%,100%,1.00);
+  font-size: 13px;
+  border-radius: 5px;
+  line-height: 0em;
+}
+
+.bt_padding {
+  padding: 24px 5px;
+}
+
+.section_midashi {
+  color: hsla(0,0%,25%,1.00);
+  font-family: "Helvetica Neue", "Segoe UI", "Noto Sans Japanese", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+  font-size: 26px;
+  line-height: 1.4em;
+  text-align: center;
+}
+
+.parallax_h2 {
+  color: hsla(174,64%,40%,1.00);
+  font-size: 24px;
+  padding-top: 100px;
+  margin-top: 60px;
+  text-shadow: 1px 1px 1px hsla(0,0%,100%,1.00);
+  line-height: 2em;
+}
+
+.br414 {
+  display: block;
+}
 }
 
 @media (max-width:992px){
@@ -158,5 +328,35 @@ body {
   padding-top: 7px;
   padding-left: 10px;
   max-width: 165px;
+}
+}
+
+@media (min-width:993px){
+
+.parallax_h2 {
+  color: hsla(174,64%,40%,1.00);
+  font-size: 37px;
+  padding-top: 100px;
+  margin-top: 60px;
+  text-shadow: 1px 1px 1px hsla(0,0%,100%,1.00);
+}
+
+.parallax_h1 {
+  font-size: 48px;
+  text-shadow: 1px 1px 1px hsla(0,0%,100%,1.00);
+}
+}
+
+@media (max-width:414px){
+
+.sm_non {
+  display: none;
+}
+}
+
+@media (min-width:415px){
+
+.pc_non {
+  display: none;
 }
 }
