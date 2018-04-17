@@ -66,6 +66,7 @@
 .bt_padding {
   padding-top: 24px;
   padding-bottom: 24px;
+  padding-left: 0px;
 }
 
 body {
@@ -162,6 +163,26 @@ body {
 
 .br414 {
   display: none;
+}
+
+.web_btn {
+  color: hsla(0,0%,100%,1.00);
+  font-size: 15px;
+  line-height: 2.5em;
+  text-align: center;
+  border-radius: 5px;
+  background-color: hsla(227,100%,47%,1.00);
+  text-shadow: 1px 1px 1px hsla(0,0%,0%,1.00);
+  -webkit-box-shadow: 1px 1px 3px 1px hsla(0,0%,52%,1.00);
+  box-shadow: 1px 1px 3px 1px hsla(0,0%,52%,1.00);
+}
+.web_bt_padding {
+  padding: 0px;
+}
+
+.web_remarks {
+  font-size: 13px;
+  line-height: 1.4em;
 }
 
 @media (max-width:320px){
@@ -359,4 +380,13 @@ body {
 .pc_non {
   display: none;
 }
+}
+
+.web_content1 {
+  font-size: 15px;
+  line-height: 1.6em;
+}
+
+.work_title {
+  font-size: 13px;
 }
