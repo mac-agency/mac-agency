@@ -10,10 +10,53 @@
 	<meta name="description" content="マックエージェンシーのwebです">
 	<meta name="keywords" content="広告,web,印刷,映像,イベント,販売促進">
 <!-- InstanceEndEditable -->
+	
+<meta name="msapplication-TileColor" content="#2d88ef">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/favicon.ico">
+<link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="36x36" href="/android-chrome-36x36.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/android-chrome-48x48.png">
+<link rel="icon" type="image/png" sizes="72x72" href="/android-chrome-72x72.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/android-chrome-96x96.png">
+<link rel="icon" type="image/png" sizes="128x128" href="/android-chrome-128x128.png">
+<link rel="icon" type="image/png" sizes="144x144" href="/android-chrome-144x144.png">
+<link rel="icon" type="image/png" sizes="152x152" href="/android-chrome-152x152.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
+<link rel="icon" type="image/png" sizes="256x256" href="/android-chrome-256x256.png">
+<link rel="icon" type="image/png" sizes="384x384" href="/android-chrome-384x384.png">
+<link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png">
+<link rel="icon" type="image/png" sizes="36x36" href="/icon-36x36.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/icon-48x48.png">
+<link rel="icon" type="image/png" sizes="72x72" href="/icon-72x72.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/icon-96x96.png">
+<link rel="icon" type="image/png" sizes="128x128" href="/icon-128x128.png">
+<link rel="icon" type="image/png" sizes="144x144" href="/icon-144x144.png">
+<link rel="icon" type="image/png" sizes="152x152" href="/icon-152x152.png">
+<link rel="icon" type="image/png" sizes="160x160" href="/icon-160x160.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/icon-192x192.png">
+<link rel="icon" type="image/png" sizes="196x196" href="/icon-196x196.png">
+<link rel="icon" type="image/png" sizes="256x256" href="/icon-256x256.png">
+<link rel="icon" type="image/png" sizes="384x384" href="/icon-384x384.png">
+<link rel="icon" type="image/png" sizes="512x512" href="/icon-512x512.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/icon-16x16.png">
+<link rel="icon" type="image/png" sizes="24x24" href="/icon-24x24.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/icon-32x32.png">
+<link rel="manifest" href="/manifest.json">
+
 <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="../css/materialize.css" type="text/css" rel="stylesheet"/>
+  <link href="../css/style.css" type="text/css" rel="stylesheet"/>
   <link href="../css/index_costomize.css" rel="stylesheet" type="text/css">
 	
 	<!--個別ページのCSS-->
@@ -24,7 +67,19 @@
 <body>
 	
 	<div class="navbar-fixed">
-  <nav class="white" role="navigation">
+		<ul id="dropdown1" class="dropdown-content">
+  <li><a href="../drone/index.html">ドローンの活用</a></li>
+  <li><a href="../drone/drone_world.html">新しい映像の世界</a></li>
+  <li class="divider"></li>
+  <li><a href="../drone/drone_movie.html">ドローン映像の数々</a></li>
+</ul>
+		<ul id="dropdown2" class="dropdown-content">
+  <li><a href="../drone/index.html">ドローンの活用</a></li>
+  <li><a href="../drone/drone_world.html">新しい映像の世界</a></li>
+  <li class="divider"></li>
+  <li><a href="../drone/drone_movie.html">ドローン映像の数々</a></li>
+</ul>
+  <nav class="white">
     <div class="nav-wrapper container">
       <div class="brand-logo"><a href="../index.html"><img class="tel_padding responsive-img" src="../images/logo.svg" alt="マックエージェンシーロゴ"/></a></div>
       <ul class="right hide-on-med-and-down">
@@ -32,22 +87,22 @@
 				<li><a href="../web/index.html">web</a></li>
 				<li><a href="../ad/index.html">広告</a></li>
 				<li><a href="../print/index.html">印刷</a></li>
-				<li><a href="index.html">映像</a></li>
+				<li><a class="dropdown-trigger" href="#!" data-target="dropdown1">広がる映像の世界<i class="material-icons right">arrow_drop_down</i></a></li>
 				<li><a href="../event/index.html">イベント</a></li>
 				<li><a href="../sp/index.html">販売促進</a></li>
 				<li><a href="../contact/index.html">お問合せ</a></li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
-				<div class="logo_space">
+				<li class="logo_space">
 					<p class="side_copy">薬を通して地域の健康に貢献する</p>
-					<a href="#"><img src="../images/logo_kari_white.svg" alt="" class="center-block"/></a>
-				</div>
+					<a href="#"><img src="../images/logo_white.svg" alt="" class="center-block"/></a>
+				</li>
         <li><a href="../index.html">HOME</a></li>
 				<li><a href="../web/index.html">web</a></li>
 				<li><a href="../ad/index.html">広告</a></li>
 				<li><a href="../print/index.html">印刷</a></li>
-				<li><a href="index.html">映像</a></li>
+				<li><a class="dropdown-trigger" href="#!" data-target="dropdown2">広がる映像の世界<i class="material-icons right">arrow_drop_down</i></a></li>
 				<li><a href="../event/index.html">イベント</a></li>
 				<li><a href="../sp/index.html">販売促進</a></li>
 				<li><a href="../contact/index.html">お問合せ</a></li>
@@ -75,21 +130,69 @@
     <div class="parallax pc_non"><img src="images/movie_parallax1_sm.jpg" alt="安心をお渡しするTFS薬局"></div>
   </div>
   <hr>
+	
+	<div class="container">
+      <h2 class="section_midashi">様々な映像の活用</h2>
+			<p class="center">企業案内、入社案内、営業案内、商品案内など様々な映像制作を手がけております。
+映像制作のシナリオから撮影・編集・メディア納品まで単に映像制作に止まらず、<br>
+その先の活用・展開までをご提案しています。<br>
+もちろん、デジタルサイネージのコンテンツ制作もリーズナブルに承っておりますので、お気軽にお問合せください。</p>
+  </div>
+	
   <div class="section_margin">
     <div class="container">
-      <h2 class="section_midashi">あなたの街のTFS薬局です</h2>
+      <h2 class="section_midashi">映像制作一例</h2>
     </div>
     <div class="container">
       <div class="row">
-        <div class="col s12 m4"><a href="#" class="btn btn-block btn-flating bn_biglink bt_padding">調剤薬局</a>
-          <p class="section_read">TFS薬局は調剤薬局として地域医療に貢献しています。多くの病院やクリニックに隣接する店舗を展開しています。気軽に立ち寄れる皆さんの調剤薬局です。</p>
-        </div>
-        <div class="col s12 m4"><a href="#" class="btn btn-block btn-flating bn_biglink bt_padding">在宅訪問</a>
-          <p>これからの医療の流れに沿って、地域密着で信頼できる薬局として在学訪問サービスを展開しています。医療と介護の緊密な連携に私たちの役割は大きいと考えています。</p>
-        </div>
-        <div class="col s12 m4"><a href="#" class="btn btn-block btn-flating bn_biglink bt_padding">採用情報</a>
-          <p>TFS薬局では薬剤師の方を募集しています。お持ちの資格技能や経験を存分に生かして頂ける職場で皆様のご応募をお増ししています。</p>
-        </div>
+        <div class="col s6 m2"><img class="responsive-img card_radius retina z-depth-2" src="images/movie1.jpg" alt="制作映像"></div>
+				<div class="col s6 m2"><img class="responsive-img card_radius retina z-depth-2" src="images/movie2.jpg" alt="制作映像"></div>
+        <div class="col s6 m2"><img class="responsive-img card_radius retina z-depth-2" src="images/movie3.jpg" alt="制作映像"></div>
+        <div class="col s6 m2"><img class="responsive-img card_radius retina z-depth-2" src="images/movie4.jpg" alt="制作映像"></div>
+				<div class="col s6 m2"><img class="responsive-img card_radius retina z-depth-2" src="images/movie5.jpg" alt="制作映像"></div>
+				<div class="col s6 m2"><img class="responsive-img card_radius retina z-depth-2" src="images/movie6.jpg" alt="制作映像"></div>
+				<div class="col s6 m2"><img class="responsive-img card_radius retina z-depth-2" src="images/movie7.jpg" alt="制作映像"></div>
+				<div class="col s6 m2"><img class="responsive-img card_radius retina z-depth-2" src="images/movie8.jpg" alt="制作映像"></div>
+        <div class="col s6 m2"><img class="responsive-img card_radius retina z-depth-2" src="images/movie9.jpg" alt="制作映像"></div>
+        <div class="col s6 m2"><img class="responsive-img card_radius retina z-depth-2" src="images/movie10.jpg" alt="制作映像"></div>
+				<div class="col s6 m2"><img class="responsive-img card_radius retina z-depth-2" src="images/movie11.jpg" alt="制作映像"></div>
+				<div class="col s6 m2"><img class="responsive-img card_radius retina z-depth-2" src="images/movie12.jpg" alt="制作映像"></div>
+				<div class="col s6 m3"><img class="responsive-img card_radius retina z-depth-2" src="images/movie13.jpg" alt="制作映像"></div>
+				<div class="col s6 m3"><img class="responsive-img card_radius retina z-depth-2" src="images/movie14.jpg" alt="制作映像"></div>
+        <div class="col s6 m3"><img class="responsive-img card_radius retina z-depth-2" src="images/movie15.jpg" alt="制作映像"></div>
+        <div class="col s6 m3"><img class="responsive-img card_radius retina z-depth-2" src="images/movie16.jpg" alt="制作映像"></div>
+				<div class="col s6 m3"><img class="responsive-img card_radius retina z-depth-2" src="images/movie17.jpg" alt="制作映像"></div>
+				<div class="col s6 m3"><img class="responsive-img card_radius retina z-depth-2" src="images/movie18.jpg" alt="制作映像"></div>
+        <div class="col s6 m3"><img class="responsive-img card_radius retina z-depth-2" src="images/movie19.jpg" alt="制作映像"></div>
+        <div class="col s6 m3"><img class="responsive-img card_radius retina z-depth-2" src="images/movie20.jpg" alt="制作映像"></div>
+				<div class="col s6 m3"><img class="responsive-img card_radius retina z-depth-2" src="images/movie21.jpg" alt="制作映像"></div>
+				<div class="col s6 m3"><img class="responsive-img card_radius retina z-depth-2" src="images/movie22.jpg" alt="制作映像"></div>
+        <div class="col s6 m3"><img class="responsive-img card_radius retina z-depth-2" src="images/movie23.jpg" alt="制作映像"></div>
+        <div class="col s6 m3"><img class="responsive-img card_radius retina z-depth-2" src="images/movie24.jpg" alt="制作映像"></div>
+				<div class="col s6 m3"><img class="responsive-img card_radius retina z-depth-2" src="images/movie25.jpg" alt="制作映像"></div>
+				<div class="col s6 m3"><img class="responsive-img card_radius retina z-depth-2" src="images/movie26.jpg" alt="制作映像"></div>
+        <div class="col s6 m3"><img class="responsive-img card_radius retina z-depth-2" src="images/movie27.jpg" alt="制作映像"></div>
+        <div class="col s6 m3"><img class="responsive-img card_radius retina z-depth-2" src="images/movie28.jpg" alt="制作映像"></div>
+				<div class="col s6 m3"><img class="responsive-img card_radius retina z-depth-2" src="images/movie29.jpg" alt="制作映像"></div>
+				<div class="col s6 m3"><img class="responsive-img card_radius retina z-depth-2" src="images/movie30.jpg" alt="制作映像"></div>
+        <div class="col s6 m3"><img class="responsive-img card_radius retina z-depth-2" src="images/movie31.jpg" alt="制作映像"></div>
+        <div class="col s6 m3"><img class="responsive-img card_radius retina z-depth-2" src="images/movie32.jpg" alt="制作映像"></div>
+				<div class="col s6 m3"><img class="responsive-img card_radius retina z-depth-2" src="images/movie33.jpg" alt="制作映像"></div>
+				<div class="col s6 m3"><img class="responsive-img card_radius retina z-depth-2" src="images/movie34.jpg" alt="制作映像"></div>
+        <div class="col s6 m3"><img class="responsive-img card_radius retina z-depth-2" src="images/movie35.jpg" alt="制作映像"></div>
+        <div class="col s6 m3"><img class="responsive-img card_radius retina z-depth-2" src="images/movie36.jpg" alt="制作映像"></div>
+				<div class="col s6 m3"><img class="responsive-img card_radius retina z-depth-2" src="images/movie37.jpg" alt="制作映像"></div>
+				<div class="col s6 m3"><img class="responsive-img card_radius retina z-depth-2" src="images/movie38.jpg" alt="制作映像"></div>
+        <div class="col s6 m3"><img class="responsive-img card_radius retina z-depth-2" src="images/movie39.jpg" alt="制作映像"></div>
+        <div class="col s6 m3"><img class="responsive-img card_radius retina z-depth-2" src="images/movie40.jpg" alt="制作映像"></div>
+				<div class="col s6 m3"><img class="responsive-img card_radius retina z-depth-2" src="images/movie41.jpg" alt="制作映像"></div>
+				<div class="col s6 m3"><img class="responsive-img card_radius retina z-depth-2" src="images/movie42.jpg" alt="制作映像"></div>
+        <div class="col s6 m3"><img class="responsive-img card_radius retina z-depth-2" src="images/movie43.jpg" alt="制作映像"></div>
+        <div class="col s6 m3"><img class="responsive-img card_radius retina z-depth-2" src="images/movie44.jpg" alt="制作映像"></div>
+				<div class="col s6 m3"><img class="responsive-img card_radius retina z-depth-2" src="images/movie45.jpg" alt="制作映像"></div>
+				<div class="col s6 m3"><img class="responsive-img card_radius retina z-depth-2" src="images/movie46.jpg" alt="制作映像"></div>
+        <div class="col s6 m3"><img class="responsive-img card_radius retina z-depth-2" src="images/movie47.jpg" alt="制作映像"></div>
+        <div class="col s6 m3"><img class="responsive-img card_radius retina z-depth-2" src="images/movie48.jpg" alt="制作映像"></div>
       </div>
     </div>
   </div>
@@ -423,8 +526,10 @@
 	<!-- InstanceEndEditable -->
 	<!--contents end-->
 	
+	<!-- トップに戻るボタン -->
+<div id="page-top" class="blogicon-chevron-up"><i class="large material-icons">arrow_upward</i></div>
 	
-  <footer class="page-footer teal">
+  <footer class="page-footer mac-blue">
     <div class="container">
       <div class="row">
         <div class="col l4 s12">
@@ -460,12 +565,13 @@
 				
         <div class="col l4 s12">
           <h5 class="white-text">MAC AGENCY</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
+					<img class="responsive-img retina sm_non" src="../images/footer_company.jpg" alt="マックエージェンシーイメージ">
+					<img class="responsive-img retina pc_non" src="../images/footer_company_sm.jpg" alt="マックエージェンシーイメージ">
+					<address>
+						<p>新潟県見附市本所1-25-19</p>
+						<p>tel.090-7289-4281</p>
+					</address>
+          
         </div>
       </div>
     </div>
@@ -481,7 +587,42 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="../js/materialize.js"></script>
   <script src="../js/init.js"></script>
-	<script type="text/javascript" src="../js/retina.js"></script>
+	<script src="../js/retina.js"></script>
+	
+	<script>
+	$(".dropdown-trigger").dropdown();
+	</script>
+	<!-- ここからJavaScript -->
+<script>
+
+//スクロール量を取得する関数
+function getScrolled() {
+ return ( window.pageYOffset !== undefined ) ? window.pageYOffset: document.documentElement.scrollTop;
+}
+
+//トップに戻るボタンの要素を取得
+var topButton = document.getElementById( 'page-top' );
+
+//ボタンの表示・非表示
+window.onscroll = function() {
+  ( getScrolled() > 500 ) ? topButton.classList.add( 'fade-in' ): topButton.classList.remove( 'fade-in' );
+};
+
+//トップに移動する関数
+function scrollToTop() {
+  var scrolled = getScrolled();
+  window.scrollTo( 0, Math.floor( scrolled / 2 ) );
+  if ( scrolled > 0 ) {
+    window.setTimeout( scrollToTop, 30 );
+  }
+};
+
+//イベント登録
+topButton.onclick = function() {
+  scrollToTop();
+};
+
+</script>
 	<!-- InstanceBeginEditable name="script" -->
 	<script>
 		var elem = document.querySelector('.carousel');

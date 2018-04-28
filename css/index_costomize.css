@@ -1,5 +1,51 @@
 @charset "UTF-8";
 
+.video{
+  position:relative;
+  width:100%;
+  padding-top:56.25%;
+}
+.video iframe{
+  position:absolute;
+  top:0;
+  right:0;
+  width:100%;
+  height:100%;
+}
+
+.ggmap {
+position: relative;
+padding-bottom: 56.25%;
+padding-top: 30px;
+height: 0;
+overflow: hidden;
+}
+ 
+.ggmap iframe,
+.ggmap object,
+.ggmap embed {
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+}
+
+
+#page-top {
+    font-size: 0;
+    position: fixed;
+    bottom: 16px;
+    right: 16px;
+    opacity: 0;
+}
+#page-top.fade-in {
+    color: #000;
+    font-size: 60px;
+    opacity: 0.6;
+    transition: opacity 1s;
+}
+
 .nav_bg_green {
   background-color: hsla(359,100%,50%,1.00);
 }
@@ -185,6 +231,42 @@ body {
   line-height: 1.4em;
 }
 
+.privacy_midashi {
+  font-family: "Helvetica Neue", "Segoe UI", "Noto Sans Japanese", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+  font-size: 23px;
+  line-height: 1.5em;
+  padding-bottom: 10px;
+  font-weight: bold;
+}
+
+.privacy_read {
+  font-family: "Helvetica Neue", "Segoe UI", "Noto Sans Japanese", "ヒラギノ角ゴ ProN W3", Meiryo, sans-serif;
+  font-size: 14pt;
+  color: hsla(0,0%,25%,1.00);
+  line-height: 1.4em;
+}
+
+.label_position {
+  float: left;
+  clear: left;
+  margin-top: -38px;
+}
+
+.mac-blue {
+  background-color: hsla(205,100%,35%,1.00);
+}
+
+.mac_text_color {
+  color: hsla(205,100%,35%,1.00);
+}
+
+.drone_point {
+  font-size: 16px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
 @media (max-width:320px){
 
 .parallax_h1 {
@@ -355,7 +437,7 @@ body {
 @media (min-width:993px){
 
 .parallax_h2 {
-  color: hsla(174,64%,40%,1.00);
+  color: hsla(205,100%,35%,1.00);
   font-size: 37px;
   padding-top: 100px;
   margin-top: 60px;

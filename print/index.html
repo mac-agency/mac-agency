@@ -10,10 +10,53 @@
 	<meta name="description" content="マックエージェンシーのwebです">
 	<meta name="keywords" content="広告,web,印刷,映像,イベント,販売促進">
 <!-- InstanceEndEditable -->
+	
+<meta name="msapplication-TileColor" content="#2d88ef">
+<meta name="msapplication-TileImage" content="/mstile-144x144.png">
+<link rel="shortcut icon" type="image/vnd.microsoft.icon" href="/favicon.ico">
+<link rel="icon" type="image/vnd.microsoft.icon" href="/favicon.ico">
+<link rel="apple-touch-icon" sizes="57x57" href="/apple-touch-icon-57x57.png">
+<link rel="apple-touch-icon" sizes="60x60" href="/apple-touch-icon-60x60.png">
+<link rel="apple-touch-icon" sizes="72x72" href="/apple-touch-icon-72x72.png">
+<link rel="apple-touch-icon" sizes="76x76" href="/apple-touch-icon-76x76.png">
+<link rel="apple-touch-icon" sizes="114x114" href="/apple-touch-icon-114x114.png">
+<link rel="apple-touch-icon" sizes="120x120" href="/apple-touch-icon-120x120.png">
+<link rel="apple-touch-icon" sizes="144x144" href="/apple-touch-icon-144x144.png">
+<link rel="apple-touch-icon" sizes="152x152" href="/apple-touch-icon-152x152.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon-180x180.png">
+<link rel="icon" type="image/png" sizes="36x36" href="/android-chrome-36x36.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/android-chrome-48x48.png">
+<link rel="icon" type="image/png" sizes="72x72" href="/android-chrome-72x72.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/android-chrome-96x96.png">
+<link rel="icon" type="image/png" sizes="128x128" href="/android-chrome-128x128.png">
+<link rel="icon" type="image/png" sizes="144x144" href="/android-chrome-144x144.png">
+<link rel="icon" type="image/png" sizes="152x152" href="/android-chrome-152x152.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/android-chrome-192x192.png">
+<link rel="icon" type="image/png" sizes="256x256" href="/android-chrome-256x256.png">
+<link rel="icon" type="image/png" sizes="384x384" href="/android-chrome-384x384.png">
+<link rel="icon" type="image/png" sizes="512x512" href="/android-chrome-512x512.png">
+<link rel="icon" type="image/png" sizes="36x36" href="/icon-36x36.png">
+<link rel="icon" type="image/png" sizes="48x48" href="/icon-48x48.png">
+<link rel="icon" type="image/png" sizes="72x72" href="/icon-72x72.png">
+<link rel="icon" type="image/png" sizes="96x96" href="/icon-96x96.png">
+<link rel="icon" type="image/png" sizes="128x128" href="/icon-128x128.png">
+<link rel="icon" type="image/png" sizes="144x144" href="/icon-144x144.png">
+<link rel="icon" type="image/png" sizes="152x152" href="/icon-152x152.png">
+<link rel="icon" type="image/png" sizes="160x160" href="/icon-160x160.png">
+<link rel="icon" type="image/png" sizes="192x192" href="/icon-192x192.png">
+<link rel="icon" type="image/png" sizes="196x196" href="/icon-196x196.png">
+<link rel="icon" type="image/png" sizes="256x256" href="/icon-256x256.png">
+<link rel="icon" type="image/png" sizes="384x384" href="/icon-384x384.png">
+<link rel="icon" type="image/png" sizes="512x512" href="/icon-512x512.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/icon-16x16.png">
+<link rel="icon" type="image/png" sizes="24x24" href="/icon-24x24.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/icon-32x32.png">
+<link rel="manifest" href="/manifest.json">
+
 <!-- CSS  -->
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
-  <link href="../css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-  <link href="../css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="../css/materialize.css" type="text/css" rel="stylesheet"/>
+  <link href="../css/style.css" type="text/css" rel="stylesheet"/>
   <link href="../css/index_costomize.css" rel="stylesheet" type="text/css">
 	
 	<!--個別ページのCSS-->
@@ -24,7 +67,19 @@
 <body>
 	
 	<div class="navbar-fixed">
-  <nav class="white" role="navigation">
+		<ul id="dropdown1" class="dropdown-content">
+  <li><a href="../drone/index.html">ドローンの活用</a></li>
+  <li><a href="../drone/drone_world.html">新しい映像の世界</a></li>
+  <li class="divider"></li>
+  <li><a href="../drone/drone_movie.html">ドローン映像の数々</a></li>
+</ul>
+		<ul id="dropdown2" class="dropdown-content">
+  <li><a href="../drone/index.html">ドローンの活用</a></li>
+  <li><a href="../drone/drone_world.html">新しい映像の世界</a></li>
+  <li class="divider"></li>
+  <li><a href="../drone/drone_movie.html">ドローン映像の数々</a></li>
+</ul>
+  <nav class="white">
     <div class="nav-wrapper container">
       <div class="brand-logo"><a href="../index.html"><img class="tel_padding responsive-img" src="../images/logo.svg" alt="マックエージェンシーロゴ"/></a></div>
       <ul class="right hide-on-med-and-down">
@@ -32,22 +87,22 @@
 				<li><a href="../web/index.html">web</a></li>
 				<li><a href="../ad/index.html">広告</a></li>
 				<li><a href="index.html">印刷</a></li>
-				<li><a href="../movie/index.html">映像</a></li>
+				<li><a class="dropdown-trigger" href="#!" data-target="dropdown1">広がる映像の世界<i class="material-icons right">arrow_drop_down</i></a></li>
 				<li><a href="../event/index.html">イベント</a></li>
 				<li><a href="../sp/index.html">販売促進</a></li>
 				<li><a href="../contact/index.html">お問合せ</a></li>
       </ul>
 
       <ul id="nav-mobile" class="sidenav">
-				<div class="logo_space">
+				<li class="logo_space">
 					<p class="side_copy">薬を通して地域の健康に貢献する</p>
-					<a href="#"><img src="../images/logo_kari_white.svg" alt="" class="center-block"/></a>
-				</div>
+					<a href="#"><img src="../images/logo_white.svg" alt="" class="center-block"/></a>
+				</li>
         <li><a href="../index.html">HOME</a></li>
 				<li><a href="../web/index.html">web</a></li>
 				<li><a href="../ad/index.html">広告</a></li>
 				<li><a href="index.html">印刷</a></li>
-				<li><a href="../movie/index.html">映像</a></li>
+				<li><a class="dropdown-trigger" href="#!" data-target="dropdown2">広がる映像の世界<i class="material-icons right">arrow_drop_down</i></a></li>
 				<li><a href="../event/index.html">イベント</a></li>
 				<li><a href="../sp/index.html">販売促進</a></li>
 				<li><a href="../contact/index.html">お問合せ</a></li>
@@ -455,8 +510,10 @@
 	<!-- InstanceEndEditable -->
 	<!--contents end-->
 	
+	<!-- トップに戻るボタン -->
+<div id="page-top" class="blogicon-chevron-up"><i class="large material-icons">arrow_upward</i></div>
 	
-  <footer class="page-footer teal">
+  <footer class="page-footer mac-blue">
     <div class="container">
       <div class="row">
         <div class="col l4 s12">
@@ -492,12 +549,13 @@
 				
         <div class="col l4 s12">
           <h5 class="white-text">MAC AGENCY</h5>
-          <ul>
-            <li><a class="white-text" href="#!">Link 1</a></li>
-            <li><a class="white-text" href="#!">Link 2</a></li>
-            <li><a class="white-text" href="#!">Link 3</a></li>
-            <li><a class="white-text" href="#!">Link 4</a></li>
-          </ul>
+					<img class="responsive-img retina sm_non" src="../images/footer_company.jpg" alt="マックエージェンシーイメージ">
+					<img class="responsive-img retina pc_non" src="../images/footer_company_sm.jpg" alt="マックエージェンシーイメージ">
+					<address>
+						<p>新潟県見附市本所1-25-19</p>
+						<p>tel.090-7289-4281</p>
+					</address>
+          
         </div>
       </div>
     </div>
@@ -513,7 +571,42 @@
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="../js/materialize.js"></script>
   <script src="../js/init.js"></script>
-	<script type="text/javascript" src="../js/retina.js"></script>
+	<script src="../js/retina.js"></script>
+	
+	<script>
+	$(".dropdown-trigger").dropdown();
+	</script>
+	<!-- ここからJavaScript -->
+<script>
+
+//スクロール量を取得する関数
+function getScrolled() {
+ return ( window.pageYOffset !== undefined ) ? window.pageYOffset: document.documentElement.scrollTop;
+}
+
+//トップに戻るボタンの要素を取得
+var topButton = document.getElementById( 'page-top' );
+
+//ボタンの表示・非表示
+window.onscroll = function() {
+  ( getScrolled() > 500 ) ? topButton.classList.add( 'fade-in' ): topButton.classList.remove( 'fade-in' );
+};
+
+//トップに移動する関数
+function scrollToTop() {
+  var scrolled = getScrolled();
+  window.scrollTo( 0, Math.floor( scrolled / 2 ) );
+  if ( scrolled > 0 ) {
+    window.setTimeout( scrollToTop, 30 );
+  }
+};
+
+//イベント登録
+topButton.onclick = function() {
+  scrollToTop();
+};
+
+</script>
 	<!-- InstanceBeginEditable name="script" -->
 	<script>
 		var elem = document.querySelector('.carousel');
