@@ -272,6 +272,10 @@ body {
   margin-bottom: 15px;
 }
 
+.phone_padding {
+  padding-right: 5px;
+}
+
 @media (max-width:320px){
 
 .parallax_h1 {
